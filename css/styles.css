@@ -891,6 +891,11 @@ img {
     padding: 0 16px;
   }
 
+  .team .container {
+    max-width: 584px;
+    padding: 0 16px;
+  }
+
   .solution {
     max-width: 768px;
     padding-top: 112px;
@@ -997,6 +1002,11 @@ img {
 
   .benefits-description {
     font-weight: 400;
+  }
+
+  .team .container {
+    max-width: 1160px;
+    padding: 0 16px;
   }
 
   .team {
