@@ -192,7 +192,7 @@ img {
   background-size: cover;
 }
 
-@media screen and (min-resolution: 2x) {
+@media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
   .solution {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -589,8 +589,8 @@ img {
   margin-left: 80px;
 }
 
-.footer-label {
-}
+/* .footer-label {
+} */
 
 .footer-form-text {
   font-weight: 500;
@@ -917,7 +917,7 @@ img {
       url(../images/people-office-tab.jpg);
   }
 
-  @media screen and (min-resolution: 2x) {
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     .solution {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
@@ -934,10 +934,10 @@ img {
     margin-bottom: 36px;
   }
 
-  .benefits {
-    /* display: flex;
-    gap: 24px; */
-  }
+  /* .benefits {
+    display: flex;
+    gap: 24px;
+  } */
 
   .benefits-description {
     margin-bottom: 0px;
@@ -995,7 +995,7 @@ img {
       url(../images/people-office.jpg);
   }
 
-  @media screen and (min-resolution: 2x) {
+  @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
     .solution {
       background-image: linear-gradient(
           rgba(46, 47, 66, 0.7),
