@@ -51,7 +51,7 @@
 
         <!-- --------------------------------------- -->
 
-        <button class="burger-btn" type="button">
+        <button class="burger-btn" type="button" data-menu-open>
           <svg class="burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
@@ -59,9 +59,9 @@
         <!-- ---------------------------------------- -->
       </div>
 
-      <div class="mob-menu is-open">
+      <div class="mob-menu" data-menu>
         <div class="container mobile-menu-container">
-          <button class="mob-menu-btn-close" type="button">
+          <button class="mob-menu-btn-close" type="button" data-menu-close>
             <svg class="mob-menu-btn" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -135,7 +135,9 @@
       <section class="solution">
         <div class="container">
           <h1 class="solution-text">Effective Solutions for Your Business</h1>
-          <button type="button" class="solution-button">Order Service</button>
+          <button type="button" class="solution-button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
 
@@ -648,7 +650,7 @@
       </section>
     </main>
 
-    <!-- <footer class="footer-main">
+    <footer class="footer-main">
       <div class="container footer">
         <div class="footer-info">
           <a href="./index.html" class="footer-logo footer-link"
@@ -694,7 +696,6 @@
           </ul>
         </div>
 
-
         <div class="footer-main-subscribe">
           <p class="footer-form-text">Subscribe</p>
           <form class="footer-form">
@@ -716,15 +717,14 @@
             </button>
           </form>
         </div>
-
       </div>
-    </footer> -->
+    </footer>
 
     <!-------------------------------------BACKDROP---------------------------------->
 
-    <div class="backdrop i_s-open">
+    <div class="backdrop is-open" data-modal>
       <div class="modal">
-        <button type="button" class="modal-close-btn">
+        <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-icon-close" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -810,5 +810,8 @@
         </form>
       </div>
     </div>
+
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
