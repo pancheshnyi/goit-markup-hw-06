@@ -184,7 +184,7 @@ button {
 }
 
 .mob-menu-item:not(:last-child) {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .mob-menu-nav {
@@ -803,7 +803,7 @@ button {
 .modal-input::placeholder {
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
 }
@@ -839,6 +839,7 @@ button {
 }
 
 .modal-textarea {
+  display: block;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 100%;
@@ -855,9 +856,9 @@ button {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-textarea:focus {
+.modal-textarea:focus {
   border-color: #4d5ae5;
-} */
+}
 
 .modal-checkbox-container {
   margin-bottom: 24px;
@@ -1041,6 +1042,10 @@ button {
     margin-bottom: 0px;
   }
 
+  .benefits {
+    gap: 72px 24px;
+  }
+
   .benefits-section {
     padding-top: 96px;
     padding-bottom: 72px;
@@ -1126,7 +1131,8 @@ button {
 
   .modal {
     width: 408px;
-    min-height: 584px;
+    /* height: auto; */
+    height: 584px;
     padding: 72px 24px 24px 24px;
   }
 
