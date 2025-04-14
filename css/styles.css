@@ -339,17 +339,21 @@ button {
   overflow: hidden;
 }
 
+.benefits {
+  gap: 72px;
+}
+
 .benefits-logo-item {
   display: none;
 }
 
-.benefits-item {
+/* .benefits-item {
   margin-bottom: 72px;
-}
+} */
 
-.benefits-item:last-child {
+/* .benefits-item:last-child {
   margin-bottom: 0px;
-}
+} */
 
 .benefits-title {
   font-weight: 700;
