@@ -1091,7 +1091,12 @@ button {
     gap: 72px 24px;
   }
 
+  .footer-main {
+    padding: 96px 0;
+  }
+
   .footer {
+    padding-left: 92px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
